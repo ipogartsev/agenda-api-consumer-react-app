@@ -1,7 +1,7 @@
 import "./Card.css";
 function Card({ title, image, description, url }) {
   const defaultImage =
-    "https://caer.univ-amu.fr/wp-content/uploads/default-placeholder.png";
+    "https://i.pinimg.com/originals/d1/d9/ae/d1d9aec6e351baa115000b4b75e02b1b.jpg";
   return (
     <div className="card">
       <h2>{title}</h2>
